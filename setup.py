@@ -163,9 +163,9 @@ setup_args = {
         'jsdeps': NPM,
     },
 
-    'author': 'Quantopian Inc.',
-    'author_email': 'opensource@quantopian.com',
-    'url': 'https://github.com/quantopian/qgrid',
+    'author': 'silkyar',
+    'author_email': 'silkyarora.2188@gmail.com',
+    'url': 'https://github.com/silkyar/qgrid',
     'license': 'Apache-2.0',
     'keywords': [
         'ipython',
