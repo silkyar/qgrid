@@ -20,6 +20,10 @@ npm_path = os.pathsep.join([
                 os.environ.get('PATH', os.defpath),
 ])
 
+# Make webpack work with nodejs >=17 
+# https://github.com/webpack/webpack/issues/14532
+os.environ["NODE_OPTIONS"]="--openssl-legacy-provider"
+
 from distutils import log
 log.set_verbosity(log.DEBUG)
 log.info('setup.py entered')
